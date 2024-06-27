@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2ea6ce;
+    margin: 0;
+
+    transition: background-color 0.5s ease;
+    background-color: #2ea6ce; /* Azul padrão */
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    padding: 0;
+    outline: none; /* Remove a borda de foco ao clicar */
+}
+
+/* Estilo específico para os emojis nos botões */
+button#pedra,
+button#papel,
+button#tesoura {
+    font-size: 3rem; /* Tamanho do emoji */
+    cursor: pointer; /* Mostra que é um botão clicável */
+}
+
+#resultado {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h1,
+h2 {
+    font-size: 3rem;
+}
